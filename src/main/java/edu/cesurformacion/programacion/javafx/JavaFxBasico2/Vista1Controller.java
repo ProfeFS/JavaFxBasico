@@ -23,10 +23,11 @@ public class Vista1Controller {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("Vista2.fxml"));
 			Parent root = loader.load();
 			vista2Controller = loader.getController();
-			vista2Controller.setLblUserName(txtUserName.getText());			
+			vista2Controller.setLblUserName(txtUserName.getText());
 			
-			Scene scene = ((Node) e.getSource()).getScene();
-			Stage stage = (Stage) scene.getWindow();
+			Node sourceNode = (Node) e.getSource(); // Obtén el nodo que originó el evento			
+			Scene scene = sourceNode.getScene(); //obtenemos la escena
+			Stage stage = (Stage) scene.getWindow(); //obtenemos el stage
 			scene.setRoot(root);
 			
 			//Stage stage = (Stage) ((Node) e.getSource()).getScene().getWindow();
