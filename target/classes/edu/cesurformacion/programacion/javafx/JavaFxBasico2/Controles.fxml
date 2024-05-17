@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.cesurformacion.programacion.javafx.JavaFxBasico2.ControlesController">
+   <children>
+      <RadioButton fx:id="rBtnArepas" layoutX="50.0" layoutY="93.0" mnemonicParsing="false" text="Arepas">
+         <toggleGroup>
+            <ToggleGroup fx:id="comidas" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rBtnPizza" layoutX="50.0" layoutY="119.0" mnemonicParsing="false" text="Pizza" toggleGroup="$comidas" />
+      <RadioButton fx:id="rBtnPasta" layoutX="50.0" layoutY="145.0" mnemonicParsing="false" text="Pasta" toggleGroup="$comidas" />
+      <Label fx:id="lblFood" layoutX="257.0" layoutY="119.0" prefHeight="18.0" prefWidth="108.0" text="Label" />
+   </children>
+</AnchorPane>
