@@ -1,6 +1,10 @@
-edu\cesurformacion\programacion\javafx\JavaFxBasico2\App.class
 edu\cesurformacion\programacion\javafx\JavaFxBasico2\BindingController.class
-edu\cesurformacion\programacion\javafx\JavaFxBasico2\Vista2Controller.class
 edu\cesurformacion\programacion\javafx\JavaFxBasico2\Person.class
-edu\cesurformacion\programacion\javafx\JavaFxBasico2\Vista1Controller.class
 edu\cesurformacion\programacion\javafx\JavaFxBasico2\ControlesController.class
+edu\cesurformacion\programacion\javafx\JavaFxBasico2\BindingPropPersController.class
+edu\cesurformacion\programacion\javafx\JavaFxBasico2\BindingFuncTransfController.class
+edu\cesurformacion\programacion\javafx\JavaFxBasico2\App.class
+edu\cesurformacion\programacion\javafx\JavaFxBasico2\Vista2Controller.class
+edu\cesurformacion\programacion\javafx\JavaFxBasico2\EnableButtonBindingController.class
+edu\cesurformacion\programacion\javafx\JavaFxBasico2\Vista1Controller.class
+edu\cesurformacion\programacion\javafx\JavaFxBasico2\BindingTransfController.class

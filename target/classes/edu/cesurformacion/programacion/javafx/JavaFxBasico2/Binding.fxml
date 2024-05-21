@@ -19,5 +19,11 @@
             <Font size="29.0" />
          </font>
       </Label>
+      <Label fx:id="lblNamePropertie" alignment="CENTER" layoutX="217.0" layoutY="262.0" prefHeight="43.0" prefWidth="168.0" text="Label" textAlignment="CENTER">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNamePropertie" layoutX="226.0" layoutY="329.0" prefHeight="37.0" prefWidth="150.0" />
    </children>
 </AnchorPane>
